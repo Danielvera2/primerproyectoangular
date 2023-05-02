@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+:root{
+	--bg-color: #000000;
+	--second-bg-color: #0b101f;
+	--text-color: #b7d0d8;
+	--second-color: #8f9ebe;
+	--main-color: #46506f;
+	--big-font: 5rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
+}
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
